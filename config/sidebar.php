@@ -24,6 +24,24 @@ return [
 
             ]
         ],
+        [
+            'text'  => 'Admin',
+            'route' => 'admin.index',
+            'icon'  => 'i-Administrator',
+            'submenu' => [
+                [
+                    'text'  => 'Add Admin',
+                    'route' => 'admin.create',
+                    'icon'  => 'i-Add',
+                ],
+                [
+                    'text'  => 'Admin List',
+                    'route' => 'admin.index',
+                    'icon'  => 'i-Add-User',
+                ],
+
+            ]
+        ],
 
     ],
 

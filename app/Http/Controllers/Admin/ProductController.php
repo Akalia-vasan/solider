@@ -37,6 +37,7 @@ class ProductController extends Controller
             'image' => 'image|dimensions:max_width=200,max_height=200',
             'basic_price' => 'required'
         ];
+        $request->validate($rules);
         if( !is_null( $request->input('id') ) ){
             $product     = Product::find($request->id);
             $msg         = ' Updated';

@@ -21,4 +21,13 @@ Route::group(['middleware' => ['auth:admin']], function () {
             $route->post('/active','ProductController@disable')->name('product.disable');
         });
     });
+    Route::group(['prefix' => 'admin'], function ($route) {
+        $route->get('/','AdminController@index')->name('admin.index');
+        $route->get('/create','AdminController@create')->name('admin.create');
+        $route->post('/create','AdminController@store')->name('admin.store');
+
+        Route::group(['prefix' => '{admin}'], function ($route) {
+            $route->get('/edit','AdminController@edit')->name('admin.edit');
+        });
+    });
 });
