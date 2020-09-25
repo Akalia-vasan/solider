@@ -1,0 +1,240 @@
+/*....................open sans........................ */
+.Ofw-300{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300 !important ;
+    }
+    .Ofw-400{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400 !important ;
+    }
+    
+    .Ofw-600{
+    font-family: 'Open Sans !important', sans-serif;
+    font-weight:600 !important;
+    }
+    .Ofw-700{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:700 !important;
+    }
+    .Ofw-800{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:800 !important;
+    }
+    /*.....................poppins...........................*/
+    .Pfw-400{
+    font-family: 'Poppins', sans-serif;
+    font-weight:400 !important;
+    }
+    .Pfw-500{
+    font-family: 'Poppins', sans-serif;
+    font-weight:500 !important;
+    }
+    .Pfw-600{
+    font-family: 'Poppins', sans-serif;
+    font-weight:600 !important;
+    }
+    .Pfw-700{
+    font-family: 'Poppins', sans-serif;
+    font-weight:700 !important;
+    }
+    .Pfw-800{
+    font-family: 'Poppins', sans-serif;
+    font-weight:800 !important;
+    }
+    .Pfw-900{
+    font-family: 'Poppins', sans-serif;
+    font-weight:900 !important;
+    }
+    /*........................font-size....................................... */
+    .fs-10{
+    font-size:10px !important;
+    }
+    .fs-11{
+    font-size:11px !important;
+    }
+    .fs-12{
+    font-size:12px !important;
+    }
+    .fs-13{
+    font-size:13px !important;
+    }
+    .fs-14{
+    font-size:14px !important;
+    }
+    .fs-15{
+    font-size:15px !important;
+    }
+    .fs-16
+    {
+    font-size:16px !important;
+    }
+    .fs-17
+    {
+    font-size:17px !important;
+    }
+    .fs-18{
+    font-size: 18px !important;
+    }
+    .fs-19{
+    font-size: 19px !important;
+    }
+    .fs-22{
+        font-size: 22px;  
+    }
+    .fs-24{
+        font-size: 24px !important;  
+    }
+    
+    .fs-20{
+    font-size: 20px !important;
+    }
+    .fs-36{
+        font-size: 36px !important;
+        }
+    
+    .fs-25{
+    font-size: 25px !important;
+    }
+    .fs-28{
+        font-size: 28px !important;
+        }
+    .lh-5{
+    line-height:1.5rem !important;
+    }
+    .lh-2{
+    line-height:2rem !important;
+    }
+    /* ................arrow-left............................. */
+    .arrow_left{
+    background-color: #666666 !important;
+    width: 35px;
+    /* border-radius: 104%; */
+    height: 35px;
+    padding: 12px !important;
+    position: relative;
+    }
+    .arrow_left img{
+    width: 57%;
+    position: absolute;
+    top: 8px;
+    left: 7px;
+    }
+    /* ......................media queries................................... */
+    @media screen and (max-width: 500px){
+    
+        
+    .fs-10{
+    font-size:8px !important;
+    }
+    .fs-11{
+    font-size:9px !important;
+    }
+    .fs-12{
+    font-size:10px !important;
+    }
+    .fs-13{
+    font-size:11px !important;
+    }
+    .fs-14{
+    font-size:12px !important;
+    }
+    .fs-15{
+    font-size:13px !important;
+    }
+    .fs-16
+    {
+    font-size:14px !important;
+    }
+    .fs-17
+    {
+    font-size:15px !important;
+    }
+    .fs-18{
+    font-size: 16px !important;
+    }
+    .fs-19{
+    font-size: 17px !important;
+    }
+    .fs-20{
+    font-size: 18px !important;
+    }
+    .fs-25{
+        font-size: 23px !important;
+        }
+    }
+    @media screen and (max-width: 800px) {
+    .fs-10{
+    font-size:8px !important;
+    }
+    .fs-11{
+    font-size:9px !important;
+    } 
+    .fs-12{
+    font-size:10px !important;
+    }
+    .fs-13{
+    font-size:11px !important;
+    }
+    .fs-14{
+    font-size:12px !important;
+    }
+    .fs-15{
+    font-size:13px !important;
+    } 
+    .fs-16
+    {
+    font-size:14px !important;
+    }
+    .fs-17
+    {
+    font-size:15px !important;
+    }
+    .fs-18{
+    font-size: 16px !important;
+    }
+    .fs-19{
+    font-size: 17px !important;
+    }
+    .fs-20{
+    font-size: 18px !important;
+    }
+    }
+    @media screen and (max-width: 1024px)
+    {
+    .fs-10{
+    font-size:9px ;
+    }
+    .fs-11{
+    font-size:10px ;
+    }
+    .fs-12{
+    font-size:11px  ;
+    }
+    .fs-13{
+    font-size:12px;
+    }
+    .fs-14{
+    font-size:13px;
+    }
+    .fs-15{
+    font-size:14px ;
+    }
+    .fs-16
+    {
+    font-size:15px ;
+    }
+    .fs-17
+    {
+    font-size:16px ;
+    }
+    .fs-18{
+    font-size: 17px ;
+    }
+    .fs-19{
+    font-size: 18px ;
+    }
+    .fs-20{
+    font-size: 19px ;
+    }
+    }
+    
