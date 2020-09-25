@@ -29,7 +29,7 @@ class AdminController extends Controller
             "email" => "required|email|regex:/(.*)@gmail\.com/i|unique:admins,email",
             "password" => "required|min:6",
         ];
-
+        $request->validate($rules);
         if( !is_null( $request->input('id') ) ){
             $newAdmin     = Admin::find($request->id);
             $msg         = ' Updated';
